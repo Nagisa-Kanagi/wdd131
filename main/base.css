@@ -19,10 +19,14 @@ body {
   margin-bottom: 20px;
 }
 
-.container h2, .container hr, .container p {
+.container h2, .container p {
   grid-column: 1;
   margin: auto;
   margin-top: 60px;
+}
+
+.container p {
+  margin-left: 25px;
 }
 
 .container img {
