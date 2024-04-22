@@ -139,12 +139,12 @@ footer {
   font-family: "Anybody", sans-serif;
 }
 
-footer p {
+footer h4 {
   color: white;
   font-size: 20px;
 }
 
-#demo {
+#demo, footer p {
   color: yellow;
   font-size: 15px;
   margin-top: -10px;
