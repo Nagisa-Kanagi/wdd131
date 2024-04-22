@@ -8,8 +8,19 @@ body {
   margin: auto;
 }
 
-main img {
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 75%;
+}
+
+.container h2, .container hr, .container p {
+  grid-column: 1;
+}
+
+.container img {
   max-width: 15%;
+  grid-column: 2;
 }
 
 li {
