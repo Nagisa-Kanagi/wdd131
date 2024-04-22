@@ -11,16 +11,25 @@ body {
 .container {
   display: grid;
   grid-template-columns: auto auto;
-  max-width: 75%;
+  max-width: 50%;
+  border: 3px solid blueviolet;
+  border-radius: 25px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .container h2, .container hr, .container p {
   grid-column: 1;
+  margin: auto;
+  margin-top: 60px;
 }
 
 .container img {
-  max-width: 15%;
+  max-width: 50%;
   grid-column: 2;
+  margin: 60px auto;
+  margin-top: -60px;
 }
 
 li {
