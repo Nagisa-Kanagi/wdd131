@@ -44,8 +44,8 @@ body hr {
 header h1 {
   font-family: "Kanit", sans-serif;
   font-weight: 100;
-  margin-top: -0.5em;
-  margin-bottom: -0.25em;
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
   font-size: 50px;
   color: white;
 }
