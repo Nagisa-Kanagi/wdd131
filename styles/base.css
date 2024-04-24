@@ -8,6 +8,11 @@ body {
   margin: auto;
 }
 
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 .primary {
   height: 700px;
   display: grid;
