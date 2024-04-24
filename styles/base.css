@@ -28,6 +28,10 @@ body {
   margin-bottom: 20px;
 }
 
+ul li a {
+  text-decoration: none;
+}
+
 .primary p {
   margin-left: 65px;
   margin-top: 40px;
