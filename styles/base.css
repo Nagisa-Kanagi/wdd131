@@ -8,7 +8,7 @@ body {
   margin: auto;
 }
 
-.container {
+.primary {
   display: grid;
   grid-template-columns: auto auto;
   max-width: 50%;
@@ -27,21 +27,21 @@ body {
   margin: auto;
   margin-bottom: 20px;
 
-.container p {
+.primary p {
   margin-left: 65px;
   margin-top: 40px;
 }
 
-.container h2{
+.primary h2{
   margin-top: 75px;
   margin-left: 300px;
 }
 
-.container h2, .container p {
+.primary h2, .primary p {
   grid-column: 1;
 }
 
-.container img {
+.primary img {
   max-width: 75%;
   grid-column: 2;
   margin: 60px auto;
@@ -59,26 +59,8 @@ h2 {
   max-width: 100%;
 }
 
-hr {
-  line-height: 3px;
-  border-bottom: 0px;
-  width: 98%;
-}
-
 h3 {
   text-align: center;
-}
-
-body hr {
-  width: 30%;
-  margin-top: -0.75em;
-  margin-bottom: 0.75em;
-}
-
-.container hr {
-  grid-column: 2;
-  width: 45%;
-  column-span: all;
 }
 
 header h1 {
