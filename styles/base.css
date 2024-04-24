@@ -52,6 +52,7 @@ ul li a:hover {
 }
 
 .p2 {
+  margin-right: 50px;
   grid-column: 2;
 }
 
@@ -72,6 +73,7 @@ ul li a:hover {
 }
 
 .image2 {
+  margin-left: 25px;
   max-width: 300px;
 }
 
