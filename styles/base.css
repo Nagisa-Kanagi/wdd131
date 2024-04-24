@@ -34,6 +34,11 @@ ul {
 
 ul li a {
   text-decoration: none;
+  color:blue;
+}
+
+ul li a:hover {
+  color: green;
 }
 
 .primary p {
