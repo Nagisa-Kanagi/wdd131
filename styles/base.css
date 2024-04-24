@@ -9,6 +9,7 @@ body {
 }
 
 .primary {
+  height: 700px;
   display: grid;
   grid-template-columns: auto auto;
   max-width: 50%;
@@ -20,17 +21,26 @@ body {
 }
 
 .secondary {
-  max-width: 25%;
+  height: 700px;
+  grid-column: 2;
+  width: 350px;
   border: 3px solid blueviolet;
   border-radius: 25px;
   background-color: white;
-  margin: auto;
+  margin-left: -400px;
   margin-bottom: 20px;
 }
 
+.primary, .secondary {
+  margin-top: 25px;
+}
+
 .special {
+  width: 100%;
   column-span: all;
-  margin: auto;
+  margin-left: 225px;
+  margin-top: -50px;
+  text-align: center;
 }
 
 ul {
@@ -52,13 +62,15 @@ ul li a:hover {
 }
 
 .p2 {
-  margin-right: 50px;
+  width: 75%;
+  margin-right: 400px;
   grid-column: 2;
 }
 
 .h2-1 {
+  width: 100%;
   margin-top: 75px;
-  margin-left: 300px;
+  margin-left: 30px;
 }
 
 .h2-1, .p1, .image2 {
@@ -66,13 +78,14 @@ ul li a:hover {
 }
 
 .image1 {
-  max-width: 75%;
+  max-height: 300px;
   grid-column: 2;
   margin: 60px auto;
   margin-top: -75px;
 }
 
 .image2 {
+  margin-top: -50px;
   margin-left: 25px;
   max-width: 300px;
 }
@@ -83,7 +96,7 @@ li {
 
 h2 {
   font-size: 25px;
-  margin: 10px auto;
+  margin: auto;
   padding: 15px;
   max-width: 100%;
 }
