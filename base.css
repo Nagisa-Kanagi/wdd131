@@ -24,10 +24,13 @@ body {
     margin-top: 40px;
 }
 
+.container h2{
+  margin-top: 75px;
+    margin-left: 300px;
+}
+
 .container h2, .container p {
     grid-column: 1;
-    margin-top: 75px;
-    margin-left: 300px;
 }
 
 .container img {
