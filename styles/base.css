@@ -44,7 +44,7 @@ main {
   width: 100%;
   column-span: all;
   margin-left: 225px;
-  margin-top: -50px;
+  margin-top: -75px;
   text-align: center;
 }
 
@@ -68,6 +68,7 @@ ul li a:hover {
 
 .p2 {
   width: 75%;
+  margin-top: -25px;
   margin-right: 400px;
   grid-column: 2;
 }
