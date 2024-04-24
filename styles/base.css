@@ -28,6 +28,18 @@ body {
   margin-bottom: 20px;
 }
 
+.special {
+  column-span: all;
+  margin: auto;
+}
+
+.line {
+  column-span: all;
+  width: 75%;
+}
+
+
+
 ul {
   list-style-type: none;
 }
@@ -46,12 +58,16 @@ ul li a:hover {
   margin-top: 40px;
 }
 
+.p2 {
+  grid-column: 2;
+}
+
 .primary h2{
   margin-top: 75px;
   margin-left: 300px;
 }
 
-.primary h2, .primary p {
+.primary h2, .primary p, .image2 {
   grid-column: 1;
 }
 
